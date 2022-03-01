@@ -4,28 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Animal API </title>
 </head>
 <body>
+    <header> 
+        <p class="textLogo">DoggoSelect</p>
+        <!--<img src="./image/logo.svg" alt="" class="dogLogo" text="DoggoSelect">-->
+       
+    </header>
+    
     <div class="container">
-        <label for="breeds">Select a Breed</label>
-        <select class="allDogs" id="breeds"></select>
         
-        <div class="cardContainer"></div>
         
         <form>
-         
-          <label for="name">Name</label>
-          <input class="allDogs" id="name" type="text" required>
-        
-          <label for="comment">Comment</label>
-          <textarea class="allDogs" id="comment" required></textarea>
-          
-          <button type="submit" id="submit">Submit</button>
+                <section class="selectBred">
+                    
+                <label for="breeds" class="labelBreed">Select a Breed</label>
+                <select class="allDogs" id="breeds"></select>
+                
+                </section>
+
+                <section class="pozeCaini">
+
+                <img src="/image/dog1.jpg" alt="" class="dogPics">
+                </section>
+
+                
+                <section class="nameDog">
+
+                <label for="name">Name</label>
+                <input class="allDogs" id="name" type="text" required>
+
+                </section>
+
+                <section class="comms">
+                <label for="comment">Comment</label>
+                <textarea class="allDogs" id="comment" required></textarea>
+                <button type="submit" id="submit">Submit</button>
+
+                </section>
         </form>
-      </div>
+    </div>
       
-      <div class="container"><hr />
+      <div class="container">
 
         <a href="#" id="moreInfo">Click to see more!</a>
           
@@ -36,5 +58,7 @@
             &copy;2022, Made by Alex C. using images from <a target="_blank" href="https://dog.ceo/">Dog API</a>
           </div>
       </footer>
+
+      <script src=""></script>
 </body>
 </html>
