@@ -63,7 +63,7 @@ header{
 
 }
 .textLogo{
-    background-image: url("/image/logo.svg");
+    background-image: url("../image/logo.svg");
     background-size: cover;
     color:rgb(87, 53, 10);
     font-size: 25px;
